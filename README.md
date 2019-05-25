@@ -1,26 +1,25 @@
-# Code challenge
 
-## Description
+# README
 
-As a code challenge, let's consider the following **RoR** apps:
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-1. The first one (**app1**) is a basic blogging application that lets a user *register* and then write posts. Each user can *write*, *read*, *update*, *list* and *destroy* **its own posts** (including texts, images or whatever);
-2. **app1**: the user is able to *filter* posts by their `description`;
-3. **app1**: exposes the user authentication via an `API`;
-4. The second app (**app2**) shares the login w/ the first app, via the a forementioned `API` (that is, an user A registered to **app1** can also log into **app2**; user data remains in **app1**’s DB).
-5. **app2** just shows posts by any registered user to logged in users.
+Things you may want to cover:
 
-## Instruction for the candidate
+* Ruby version
 
-* We’d like you to provide an implementation of the apps described above, the code should be production-ready. 
-* Automated testing for the implemented parts is a **strict requirement**.
-* When done, please create a branch inside the repository (you should have the permission to do so) and make a MR (Merge request/Pull request) to master branch setting as target project your project (the forked one).
-* Complete the MR with a `RUN_INSTRUCTIONS.md` file that contains **all** the required steps to run the applications.
-* The MR will be subject to a code review process which will require your interaction.
-* Please note that we'll take into account every little detail in your code (also the quality of git logs will be part of the evaluation process).
+* System dependencies
 
-Fell free to use whatever gem you want, no need to reinvent the wheel 🙂
+* Configuration
 
-If something is not clear, please ask.
+* Database creation
 
-**If this test goes well you'll be subject to the last techincal interview with a member of our lead team.**
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...

@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: iubenda_blog_development
+
+test:
+  <<: *default
+  database: iubenda_blog_test
+
+production:
+  <<: *default
+  database: iubenda_blog_production
+  username: iubenda_blog
+  password:
