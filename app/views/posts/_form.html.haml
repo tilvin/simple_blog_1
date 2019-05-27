@@ -1,0 +1,15 @@
+= form_for @post do |f|
+  .div
+    = f.label 'Title'
+    = f.text_field :title
+    = show_errors(f.object.errors, :title)
+  .div
+    = f.label 'Description'
+    = f.text_area :description
+    = show_errors(f.object.errors, :description)
+  .div
+    = f.label 'Cover Image'
+    = f.file_field :cover_image
+  .div
+    = f.submit 'Save'
+    = link_to 'Back', posts_path

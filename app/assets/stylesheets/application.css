@@ -98,3 +98,9 @@
  label {
    display: block;
  }
+
+.title-colored a {
+  font-weight: bold;
+  color: #54bda9 !important;
+  text-decoration: none;
+}
