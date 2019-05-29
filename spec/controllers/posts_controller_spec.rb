@@ -17,7 +17,6 @@ RSpec.describe PostsController, type: :controller do
       get :index
       expect(response).to be_successful
     end
-
   end
 
   describe "GET #show" do
@@ -36,7 +35,7 @@ RSpec.describe PostsController, type: :controller do
   describe "GET #new" do
     it "returns a success response" do
       get :new
-      expect(response).to be_success
+      expect(response).to be_successful
     end
   end
 
