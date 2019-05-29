@@ -4,7 +4,8 @@ class PostsController < ApplicationController
   before_action :find_post
 
   def index
-    @posts = current_user.posts.with_attached_cover_image
+    @q = current_user.posts.with_attached_cover_image.ransack(params[:q])
+    @posts = @q.result
   end
 
   def show
