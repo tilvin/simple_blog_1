@@ -19,6 +19,7 @@ gem "haml-rails", "~> 2.0"
 gem 'devise'
 gem 'faker'
 gem 'jwt'
+gem 'fast_jsonapi'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
