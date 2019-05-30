@@ -2,6 +2,8 @@ install gems:
 
 `bundle install`
 
+copy database.yml.sample to database.yml
+
 setup and seed database:
 
 `rails db:create db:migrate db:seed`
