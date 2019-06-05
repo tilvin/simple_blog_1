@@ -6,7 +6,7 @@ copy database.yml.sample to database.yml
 
 setup and seed database:
 
-`rails db:create db:migrate db:seed`
+`bin/setup`
 
 create config/master.key with content:
 
